@@ -1,0 +1,67 @@
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="logo2.png" type="image/png">
+    <title>Orbis - Вхід</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body id="login-page">
+    <header>
+        <a href="index.html">
+            <img src="logo.png" alt="Логотип Orbis" class="logo">
+        </a>        
+        <nav class="nav-center">
+			<a href="about.html">Про нас</a>
+            <a href="menu.html">Меню</a>
+            <a href="contacts.html">Контакти</a>
+        </nav>
+        
+        <nav class="nav-right">
+            <a href="https://t.me" target="_blank"><img src="tgico.png" alt="Telegram"></a>
+            <a href="https://instagram.com" target="_blank"><img src="igico.png" alt="Instagram"></a>
+        </nav>
+    </header>
+    <hr style="margin: 5px 0;"><br>
+	<main>
+		<div class="log-block">
+			Вхід
+			<br>
+			<div class="log-l">
+				Електронна пошта: <br>
+				<input type="email" id="login-email" name="login-email" required><br>
+				Пароль: <br>
+				<input type="password" id="login-password" name="login-password" required>
+			</div>
+			<br>
+			<button id="login-b">Увійти</button>
+		</div>
+		<br><br>
+		<div class="log-block">
+			Реєстрація
+			<br>
+			<div class="log-l">
+				Ім’я: <br>
+				<input type="text" id="name" name="name" required><br>
+				Електронна пошта: <br>
+				<input type="email" id="email" name="email" required><br>
+				Пароль: <br>
+				<input type="password" id="password" name="password" required><br>
+				Підтвердження пароля: <br>
+				<input type="password" id="confirm-password" name="confirm-password" required>
+			</div>
+			<div class="error-msg"> 
+			
+			</div>
+			<button id="reg-b">Зареєструватися</button>
+		</div>
+    </main>
+    
+    <footer>
+		<hr>
+        <p>&copy; 2025 Orbis. Всі права захищено.</p>
+    </footer>
+	<script src="login.js"></script>
+</body>
+</html>
