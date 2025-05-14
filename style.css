@@ -811,8 +811,8 @@ footer {
 			var(--bg-image);
 		background-size: cover; 
 		background-position: center;
-		width: 175px; 
-		height: 110px;
+		width: 31%; 
+		height: 80px;
 		font-size: 24px; 
 		display: flex;
 		justify-content: center;  
